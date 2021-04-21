@@ -113,7 +113,7 @@ node1=build_tree(dataset,features)
 
 print("The decision tree for the dataset using ID3 algorithm is")
 print_tree(node1,0)
-testdata,features=load_csv("id3_test.csv")
+testdata,features=load_csv("id3_test.csv") 
 
 for xtest in testdata:
     print("The test instance:",xtest)
